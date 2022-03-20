@@ -8,5 +8,5 @@ metadata:
 data:
   config.json: | 
     { 
-      "key1": "value33"
+      "key1": "value1"
     }

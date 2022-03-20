@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pingapp-config-files
+  namespace: ej10
+  labels:
+    app: pingapp210
+data:
+  config.json: | 
+    { 
+      "key1": "value33"
+    }

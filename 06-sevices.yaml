@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: pingapp210
+  namespace: ej10
+  labels:
+    app: pingapp210
+spec:
+  selector:
+    app: pingapp210
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 4567
+  type: NodePort
